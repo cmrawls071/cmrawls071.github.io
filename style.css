@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+    background-color: #dfdfdf;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.navbar {
+    background-color: #46637b;
+    color: white
+}
+
+.navbar a{
+    color: #46637b
+}
+
+.navbar div {
+    color: white;
+}
+
+.navbar button{
+    color: white;
+    visibility: hidden;
+}
+
+@media (max-width: 990px) {
+    .navbar button {
+        visibility: visible;
+    }
+}
+
+.title {
+    position: relative;
+    padding: 50px;
+    margin: 30px;
+    background-color: #6a707d;
+    color: white;
+    text-align: center;
+    display: block
+}
+
+.title-sm {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    background-color: #6a707d;
+    color: white;
+    text-align: center;
+    display: block
+}
+
+.col-lg-4 {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px
+}
+
+.col-lg-7{
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 10px
+}
+
+.col-lg-8{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-around;
+}
+
+#figure {
+  position: relative;
+}
+
+#summary-image {
+    float: left;
+    padding-right: 30px
+}
+  
+.fit-image {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    object-position: center;
+}
+
+.fig-lg {
+    width: 70%;
+    height: 70%;
+    margin: auto;    
+    display: block;
+}
